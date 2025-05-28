@@ -1,5 +1,4 @@
 # Cipher_Vortex_DDOS
-# Cipher_Vortex_DDOS
 Cipher Vortex DDOS
 
 ## ✨ Features
