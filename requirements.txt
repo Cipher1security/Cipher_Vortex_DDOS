@@ -1,0 +1,4 @@
+aiohttp
+dnspython
+ping3
+rich
