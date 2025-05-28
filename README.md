@@ -1,19 +1,47 @@
 # Cipher_Vortex_DDOS
+# Cipher_Vortex_DDOS
 Cipher Vortex DDOS
 
-## Features
+## ✨ Features
 
-**HTTP Flooding:** 
-- Send multiple GET and POST requests to a target URL, overwhelming the server with traffic.
+### 🔥 HTTP Flooding
+- Send massive amounts of GET, POST, and HEAD requests.
+- Custom headers and random user-agents support.
+- Designed to simulate real traffic patterns.
 
-**UDP Flooding:** 
-- Generate a high volume of UDP packets directed at a specified port on the target server, aiming to disrupt its normal operation.
+### 💣 UDP Flooding
+- Sends a high volume of UDP packets to the target host/port.
+- Effective for volumetric stress testing.
 
-**Ping Test:** 
-- Assess the connectivity and response time to the target URL before initiating an attack, ensuring the target is reachable.
+### 📡 TCP Flooding
+- Opens multiple TCP connections to exhaust server resources.
+- Simulates real socket-level traffic.
 
-**Customizable Parameters:** 
-- Adjust the number of requests, delay between requests, and duration of attacks to tailor the tool to specific testing needs.
+### ⚡ Ping Test
+- Verifies target reachability before initiating an attack.
+- Ensures the host is online to avoid wasted operations.
 
-**Real-Time Feedback:** 
-- Receive immediate updates on the status of requests and overall progress during the attack process.
+### 🛠 Customizable Parameters
+- Control over:
+  - Request method (`GET`, `POST`, `UDP`, `TCP`)
+  - Target URL or IP
+  - Target port
+  - Number of threads
+  - Delay between requests
+  - Duration of the attack
+
+### 📊 Real-Time Feedback
+- Displays live statistics:
+  - Requests per second (RPS)
+  - Success/Error counts
+  - Colored logs using `rich`
+
+---
+
+## 🔧 Usage
+
+```bash
+git clone https://github.com/Cipher1security/Cipher_Vortex_DDOS.git
+cd Cipher_Vortex_DDOS
+pip install -r requirements.txt
+```
